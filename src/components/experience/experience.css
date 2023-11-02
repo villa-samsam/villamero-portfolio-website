@@ -1,0 +1,123 @@
+.experience{
+    /* background: rgb(228, 112, 183); */
+    height: 100vh;
+    margin-top: 3rem;
+}
+
+/* <!-------- Experiences Content Start ------------->   */
+
+  .experience__container .experience-box{
+    border-left: 2px solid var(--color-primary-variant);
+  }
+
+  .experience-box .experience-content{
+    position: relative;
+    padding-left: 2rem;
+  }
+
+  .experience-box .experience-content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left : -1.1rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--color-primary-variant);
+    border-radius: 50%;
+
+  }
+
+  .experience-content .content{
+    position: relative;
+    padding: 1.5rem;
+    border: 2px solid var(--color-primary-variant);
+    border-radius: 0.6rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+
+  .experience-content .content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--color-bg-variant);
+    z-index: -1;
+    transition: var(--transition);
+  }
+
+  .experience-content .content:hover::before{
+    width: 100%;
+  }
+
+
+  .experience-content .content .year{
+    font-size: 1rem;
+    color: var(--color-primary-variant);
+    padding-bottom: 0.5rem;
+  }
+
+  .experience-content .content .year i{
+    padding-right: 0.5rem;
+  }
+
+  .experience-content .content h4{
+    font-size: 1.1rem;
+  }
+
+  .experience-content .content p{
+    font-size: 1rem;
+    padding-top: 0.5rem;
+  }
+
+/* =======================MEDIA QUERIES (MEDIUM DEVICES/TABLETS) */
+
+@media screen and (max-width: 1024px){
+
+    .experience__container .experience-box {
+        border-left: .2rem solid var(--color-primary-variant);
+        margin: 0.5rem auto;
+    }
+
+    .experience__container .experience-box .experience-content .content > p{
+        margin: 0.5rem 0 0.8rem;
+        font-size: 1.2rem;
+
+    }
+}
+
+
+/* =======================MEDIA QUERIES (SMALL DEVICES/PHONES) */
+
+@media screen and (max-width: 600px){
+
+    .experience{
+        margin-top: 17rem;
+        height: 160vh;
+    }
+    
+   .experience__container .experience-box{
+        margin: 0.95rem 0.5rem 0 0.9rem;
+        border-left: 0.2rem solid var(--color-primary-variant);
+        width: 100%;
+
+    }
+
+    .experience-content .content {
+        padding: 0.5rem 0 0.2rem 0.2rem;
+        margin: 2rem 1.7rem 1rem 0rem;
+    }
+    .experience-content .content .year{
+        font-size: 1.2rem;
+    }
+
+    .experience__container .experience-box .experience-content .content > p {
+        margin: 1rem 0 ;
+        font-size: 0.9rem;
+
+    }
+}
+
+
