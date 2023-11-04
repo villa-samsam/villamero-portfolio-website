@@ -25,7 +25,7 @@ const About = () => {
             <div className="about__cards">
               <article className='about__card'>
                 <MdWork className='about__icon'/>
-                <a href="experience"><h5>Work Experience</h5></a>
+                <a href="#experience"><h5>Work Experience</h5></a>
 
               </article>
 

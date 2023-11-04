@@ -5,6 +5,8 @@ import {FaFacebookMessenger} from 'react-icons/fa';
 import {RiMessage3Fill} from 'react-icons/ri';
 import  { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2';
+
 
 
 
@@ -17,6 +19,17 @@ export const Contact = () => {
     emailjs.sendForm('service_bxotuyl', 'template_o9spji9', form.current, '7OC7BT1i5byBhESn5')
 
     e.target.reset()
+  };
+
+  const handleButtonClick = () => {
+    Swal.fire({
+      title: 'Message Sent',
+      text: 'Thank you for your message!',
+      icon: 'success',
+      customClass: {
+        popup: 'custom-sweetalert',
+      }
+    });
   };
 
 
@@ -59,7 +72,7 @@ export const Contact = () => {
           <input type="email" name='email' placeholder='Your Email' required />
           <input type="text" name='subject' placeholder='Subject' required />
           <textarea name="message" rows="10" placeholder='Your Message' required/>
-          <button type='submit' className='btn btn-primary'>Send message</button>
+          <button type='submit' className='btn btn-primary' onClick={handleButtonClick}>Send message</button>
 
       </form>
         

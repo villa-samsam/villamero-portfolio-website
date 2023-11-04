@@ -81,12 +81,12 @@
 form{
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 1rem;
 }
 
 input, textarea{
     width: 100%;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 0.5rem;
     background: transparent;
     border: 1px solid var(--color-primary-variant);
@@ -95,6 +95,17 @@ input, textarea{
 }
 
 
+/* ======SWEETALERT */
+
+
+.custom-sweetalert {
+    max-width: 400px; 
+    
+  }
+
+  
+  
+
 /* =======================MEDIA QUERIES (MEDIUM DEVICES/TABLETS) */
 
 @media screen and (max-width: 1024px){
@@ -102,6 +113,10 @@ input, textarea{
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
+    .custom-sweetalert {
+        max-width: 350px; /* Adjust the maximum width as needed */
+      }
 
 }
 
@@ -112,5 +127,11 @@ input, textarea{
     .contact__container{
         width: var(--container-width-sm);
     }
+
+    .custom-sweetalert {
+        max-width: 300px; 
+        max-height: 400px;
+        font-size: small;
+      }
 
 }

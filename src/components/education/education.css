@@ -3,7 +3,7 @@
 /* <!-------- Education Content Start ------------->   */
 
 .education {
-    margin-top: 7rem;
+    margin-top: 5rem;
     /* background: red; */
 }
 
@@ -84,7 +84,7 @@
 
     .education-content .content> p{
         margin: 1rem 0 1.5rem;
-        font-size: 1.7rem;
+        font-size: 1.2rem;
 
     }
 }
@@ -112,4 +112,31 @@
         font-size: 0.95rem;
 
     }
+}
+
+@media screen and (max-width: 480px){
+
+  .education{
+      margin-top: 3rem;
+      margin-bottom: 5rem;
+      /* height: 150vh; */
+  }
+
+  .education__container {
+    margin: 0.95rem auto 3rem;
+    width: 90%;
+
+}
+
+.education-content .content .year{
+  font-size: 1rem;
+}
+
+.education-content .content > p {
+  margin: 1rem 0 ;
+  font-size: 0.85rem;
+
+}
+
+
 }

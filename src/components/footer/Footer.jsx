@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import {BsFacebook, BsInstagram, BsLinkedin} from 'react-icons/bs';
+import {BsFacebook, BsInstagram, BsLinkedin, BsGithub} from 'react-icons/bs';
 import {FaThreads} from 'react-icons/fa6';
 
 
@@ -20,6 +20,7 @@ const Footer = () => {
         <a href="https://www.instagram.com/villamero.samsam/"><BsInstagram/></a>
         <a href="https://www.threads.net/@villamero.samsam"><FaThreads/></a>
         <a href="https://www.linkedin.com/in/christine-mae-villamero-988b4912b/"><BsLinkedin/></a>
+        <a href="https://github.com/villa-samsam"><BsGithub/></a>
       </div>
     <div className="footer__copyright">
       <small>&copy;2023. All Rights Reserved Designed and Developed by Christine Mae Villamero</small>
