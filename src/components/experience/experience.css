@@ -122,7 +122,7 @@
 
     .experience__container .experience-box .experience-content .content > p {
         margin: 1rem 0 ;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
 
     }
 }
@@ -131,7 +131,7 @@
 /* =======================MEDIA QUERIES (SMALLER DEVICES/iphoneSE) */
 
 @media screen and (max-width: 480px){
-
+  
   .experience{
       margin-top: 25rem;
       margin-bottom: 20rem;
@@ -146,7 +146,7 @@
 
 .experience__container > div {
   margin: 1rem 0 ;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 
 }
 
@@ -160,7 +160,7 @@
 
 .experience__container .experience-box .experience-content .content > p {
   margin: 1rem 0 ;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 
 }
 

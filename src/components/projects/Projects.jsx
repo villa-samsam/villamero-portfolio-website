@@ -12,22 +12,22 @@ const data = [
     id:1,
     image: IMG1,
     title: 'E-Commerce-Website-Design-Home-Page',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/20637230-E-Commerce-Website-Design-Home-Page'
+    github: 'https://github.com/villa-samsam/',
+    demo: 'https://github.com/villa-samsam/'
   },
   {
     id:2,
     image: IMG2,
     title: 'Weather App',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/20331883-Concept-Weather'
+    github: 'https://github.com/villa-samsam/',
+    demo: 'https://github.com/villa-samsam/'
   },
   {
     id:4,
     image: IMG4,
     title: 'To-Do-List App',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/13998970-Simple-Task-App'
+    github: 'https://github.com/villa-samsam/',
+    demo: 'https://github.com/villa-samsam/'
   }
 
 ]
