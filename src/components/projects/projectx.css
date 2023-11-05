@@ -11,7 +11,7 @@
 
 .project__item{
     background: var(--color-bg-variant);
-    padding: 1.2rem;
+    padding: 1rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -28,7 +28,7 @@
 }
 
 .project__item h3{
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1.5rem;
 }
 
 .project__item-cta{
@@ -46,9 +46,7 @@
      grid-template-columns: 1fr 1fr;
      gap: 1.2rem;
     }
-
-
-     
+ 
  }
  
  
@@ -60,7 +58,6 @@
         grid-template-columns: 1fr;
          gap: 1rem;
         }
- 
 
  }
  

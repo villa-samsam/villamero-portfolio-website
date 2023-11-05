@@ -23,33 +23,13 @@ const data = [
     demo: 'https://dribbble.com/shots/20331883-Concept-Weather'
   },
   {
-    id:3,
-    image: IMG3,
-    title: 'Messaging App',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/15568094-Messaging-Dark-Light-Theme-Exploration'
-  },
-  {
     id:4,
     image: IMG4,
     title: 'To-Do-List App',
     github: 'https://github.com',
     demo: 'https://dribbble.com/shots/13998970-Simple-Task-App'
-  },
-  {
-    id:5,
-    image: IMG5,
-    title: 'Dating App',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/15840874-Dating-App'
-  },
-  {
-    id:6,
-    image: IMG6,
-    title: 'Quiz App',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/14651566-Mobile-quiz-app-I-m-genius'
   }
+
 ]
 
 const Projects = () => {

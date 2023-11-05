@@ -18,22 +18,22 @@ const data = [
   {
     avatar:AVTR1,
     name: 'Joe Mari',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur delectus eum, libero dolorem facere iusto. Eos deleniti reprehenderit aliquam provident inventore, sint qui nostrum accusamus aut illum repellat aspernatur dolor.',
+    review: 'Keep it up Sam, way to go! You are doing great, and your skills will only improve with time and practice!',
   },
   {
     avatar:AVTR2,
     name: 'Ian Dumagan',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur delectus eum, libero dolorem facere iusto. Eos deleniti reprehenderit aliquam provident inventore, sint qui nostrum accusamus aut illum repellat aspernatur dolor.',
+    review: 'Congratulations on starting your web development journey! It is an exciting world with endless possibilities!',
   },
   {
     avatar:AVTR3,
     name: 'Paul Jearic',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur delectus eum, libero dolorem facere iusto. Eos deleniti reprehenderit aliquam provident inventore, sint qui nostrum accusamus aut illum repellat aspernatur dolor.',
+    review: 'Great start! Very impressive to see your progress as a beginner in web development.',
   },
   {
     avatar:AVTR4,
     name: 'Jerry Ale',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur delectus eum, libero dolorem facere iusto. Eos deleniti reprehenderit aliquam provident inventore, sint qui nostrum accusamus aut illum repellat aspernatur dolor.',
+    review: 'Nice portfolio! Consider adding more projects to your portfolio to showcase your versatility.',
   },
   
 ]
