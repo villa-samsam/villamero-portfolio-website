@@ -3,6 +3,7 @@ import './header.css';
 import CTA from './CTA';
 import ME from '../../assets/me.png'
 import  HeaderSocials from './HeaderSocials';
+import Skills from './Skills.jsx';
 
 const Header = () => {
   return (
@@ -15,6 +16,7 @@ const Header = () => {
         </div>
        
         <CTA />
+        <Skills/>
         <HeaderSocials />
 
         <div className="me">

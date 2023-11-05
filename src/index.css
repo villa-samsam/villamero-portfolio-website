@@ -127,6 +127,30 @@ img{
     section{
         margin-top: 6rem;
     }
+
+    .btn {
+        width: max-content;
+        display: inline-block;
+        color: var(--color-primary);
+        padding: 0.5rem 1.2rem;
+        border-radius: 0.4rem;
+        cursor: pointer;
+        border: 1px solid var(--color-primary);
+        transition: var(--transition);
+    }
+
+    .btn:hover{
+        background-color: var(--color-white);
+        color: var(--color-bg-variant);
+        border-color: transparent;
+    }
+    
+    .btn-primary{
+        background: var(--color-primary);
+        color: var(--color-bg);
+    }
+    
+    
 }
 
 
@@ -138,6 +162,65 @@ img{
     }
 
     section > h2{
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .btn {
+        width: max-content;
+        display: inline-block;
+        color: var(--color-primary);
+        padding: 0.5rem 1rem;
+        border-radius: 0.4rem;
+        cursor: pointer;
+        border: 1px solid var(--color-primary);
+        transition: var(--transition);
+        font-size: 12px;
+    }
+
+    .btn:hover{
+        background-color: var(--color-white);
+        color: var(--color-bg-variant);
+        border-color: transparent;
+    }
+    
+    .btn-primary{
+        background: var(--color-primary);
+        color: var(--color-bg);
+    }
+}
+
+/* =======================MEDIA QUERIES (SMALLER DEVICES/iphoneSE) */
+@media screen and (max-width: 480px){
+
+
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section > h2{
+        margin-bottom: 1rem;
+    }
+
+    .btn {
+        width: max-content;
+        display: inline-block;
+        color: var(--color-primary);
+        padding: 0.5rem 0.5rem;
+        border-radius: 0.4rem;
+        cursor: pointer;
+        border: 1px solid var(--color-primary);
+        transition: var(--transition);
+        font-size: 12px;
+    }
+
+    .btn:hover{
+        background-color: var(--color-white);
+        color: var(--color-bg-variant);
+        border-color: transparent;
+    }
+    
+    .btn-primary{
+        background: var(--color-primary);
+        color: var(--color-bg);
     }
 }

@@ -1,0 +1,135 @@
+.skillset__container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    padding-top: 2rem;
+    max-width: 850px;
+  }
+ 
+ .skillsets1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    background: transparent;
+   
+  }
+  
+
+  .skillsets2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    background: transparent;
+    margin: 1rem auto;
+  }
+
+ .skillsets1 span{
+    margin-right: 15px ;
+    background: #e9e9e962;
+    padding: 5px ;
+  }
+
+ 
+  .skillsets2 span{
+    margin-right: 15px ;
+    background: #e9e9e962;
+    padding: 5px ;
+  }
+
+/* =======================MEDIA QUERIES (MEDIUM DEVICES/TABLETS) */
+
+@media screen and (max-width: 1024px){
+    .skillsets1{
+        font-size: 0.7rem;
+       
+      }
+      
+    
+      .skillsets2{
+        font-size: 0.7rem;
+      }
+    
+     .skillsets1 span{
+        margin-right: 15px ;
+        background: #e9e9e962;
+        padding: 5px ;
+      }
+    
+     
+      .skillsets2 span{
+        margin-right: 15px ;
+        background: #e9e9e962;
+        padding: 5px ;
+      }
+}
+
+
+/* =======================MEDIA QUERIES (SMALL DEVICES/PHONES) */
+
+@media screen and (max-width: 600px){
+
+    .skillset__container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        padding-top: 2rem;
+        max-width: 800px;
+      }
+
+    .skillsets1{
+        font-size: 0.5rem;
+       
+      }
+      
+    
+      .skillsets2{
+        font-size: 0.5rem;
+      }
+
+      
+     .skillsets1 span{
+        margin-right: 8px ;
+        background: #e9e9e962;
+        padding: 3px ;
+      }
+    
+     
+      .skillsets2 span{
+        margin-right: 8px ;
+        background: #e9e9e962;
+        padding: 3px ;
+      }
+}
+
+/* =======================MEDIA QUERIES (SMALLER DEVICES/iphoneSE) */
+@media screen and (max-width: 480px){
+
+
+    .skillsets1{
+        font-size: 0.4rem;
+       
+      }
+      
+    
+      .skillsets2{
+        font-size: 0.4rem;
+      }
+
+      
+     .skillsets1 span{
+        margin-right: 6px ;
+        background: #e9e9e962;
+        padding: 2px ;
+      }
+    
+     
+      .skillsets2 span{
+        margin-right: 6px ;
+        background: #e9e9e962;
+        padding: 2px ;
+      }
+}
