@@ -19,7 +19,7 @@ const data = [
     id:2,
     image: IMG2,
     title: 'Weather App',
-    github: 'https://github.com/villa-samsam/',
+    github: 'https://github.com/villa-samsam/weather-app',
     demo: 'https://github.com/villa-samsam/'
   },
   {
