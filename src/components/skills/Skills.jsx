@@ -87,6 +87,14 @@ const Skills = () => {
                 <small className="text-light">Basic</small>
               </div>
             </article>
+
+            <article className="skills__details">
+              <BsFillPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>AWS Amazon Web Services</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
           </div>
         </div>
       </div>
